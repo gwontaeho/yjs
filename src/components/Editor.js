@@ -58,7 +58,7 @@ const Editor = (props) => {
     };
   }, [name]);
 
-  return <div ref={wrapperRef}></div>;
+  return <div ref={wrapperRef} style={{ height: 600, width: 800 }}></div>;
 };
 
 export default Editor;
